@@ -16,7 +16,6 @@ FROM cpc
 WHERE sigla_da_uf_ = 'RR' 
 	AND area_de_avaliacao LIKE 'TECNOLOGIA EM ANÁLISE%'
 
-
 -- Resposta:
 -- DATA OUTPUT:                                        
     -- (1) "CIÊNCIA DA COMPUTAÇÃO (BACHARELADO)"                        

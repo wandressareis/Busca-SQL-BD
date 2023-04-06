@@ -31,3 +31,9 @@
 | CIÊNCIA DA COMPUTAÇÃO (LICENCIATURA) | IFTO         | 1.913         | 
 | CIÊNCIA DA COMPUTAÇÃO (LICENCIATURA) | IFAP         | 1.823         | 
 | CIÊNCIA DA COMPUTAÇÃO (LICENCIATURA) | IFTO         | 1.767         | 
+
+### Questão 4
+
+| NOTA MÁXIMA | NOTA MÍNIMA | MÉDIA              |
+| :---------: | :---------: | :----------------: |
+|4.035	      |  1.013	    | 2.5754838709677419 |

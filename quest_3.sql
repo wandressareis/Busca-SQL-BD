@@ -23,4 +23,4 @@ ORDER BY (_cpc_continuo) DESC
     -- "CIÊNCIA DA COMPUTAÇÃO (LICENCIATURA)"	"IFTO"	"1.767"
 
 -- Resposta:
-    -- Analisando a tabela o curso de ciência da computação da UFRR ficou em 3º lugar no ranking.
+    -- Analisando a tabela, o curso de ciência da computação da UFRR ficou em 3º lugar no ranking.
