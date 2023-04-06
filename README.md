@@ -1,12 +1,12 @@
-# TABELAS
+## TABELAS
 
-## Questão 1
+### Questão 1
 
 | count  |
 | :----: |
 |    111 |
 
-## Questão 2
+### Questão 2
 
 | area_de_avaliacao                                     | sigla_da_ies     |
 | :---------------------------------------------------: | :--------------: |
