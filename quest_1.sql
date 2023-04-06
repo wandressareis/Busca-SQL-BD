@@ -5,10 +5,11 @@
 
 -- 1) Quantas universidades federais existem no estado do Paraná?
 
-SELECT COUNT(DISTINCT sigla_da_ies)
+SELECT COUNT(DISTINCT nome_da_ies)
 FROM cpc
 WHERE sigla_da_uf_ = 'PR' 
 	AND categoria_administrativa = 'Pública Federal'
+	AND organizacao_academica = 'Universidade'
 
 -- Data Output: 5
 --
