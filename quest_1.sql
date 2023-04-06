@@ -11,7 +11,7 @@ WHERE sigla_da_uf_ = 'PR'
 	AND categoria_administrativa = 'Pública Federal'
 	AND organizacao_academica = 'Universidade'
 
--- Data Output: 5
+-- Data Output: 4
 --
 -- Resposta: 
-	-- Existem 5 universidades federais no estado do Paraná.
+	-- Existem 4 universidades federais no estado do Paraná.
