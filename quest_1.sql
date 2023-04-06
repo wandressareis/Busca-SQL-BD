@@ -1,3 +1,8 @@
+-- Banco de Dados II
+-- Prof Acauan
+-- Aluna: Wandressa Reis
+-- Matrícula: 2020014698
+
 -- 1) Quantas universidades federais existem no estado do Paraná?
 
 SELECT COUNT(nome_da_ies)
