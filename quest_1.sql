@@ -5,12 +5,12 @@
 
 -- 1) Quantas universidades federais existem no estado do Paraná?
 
-SELECT COUNT(nome_da_ies)
+SELECT COUNT(DISTINCT sigla_da_ies)
 FROM cpc
 WHERE sigla_da_uf_ = 'PR' 
 	AND categoria_administrativa = 'Pública Federal'
 
--- Data Output: 111
+-- Data Output: 5
 --
 -- Resposta: 
-	-- Existem 111 universidades federais no estado do Paraná.
+	-- Existem 5 universidades federais no estado do Paraná.
