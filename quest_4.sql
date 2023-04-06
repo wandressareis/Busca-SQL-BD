@@ -11,6 +11,6 @@ WHERE codigo_da_area = '4301'
 
 -- Resposta:
 -- DATA OUTPUT:
-    Máxima: 4.035	
-    Mínima: 1.013	
-    Média:  2.5754838709677419
+    -- Máxima: 4.035	
+    -- Mínima: 1.013	
+    -- Média:  2.5754838709677419
