@@ -34,6 +34,6 @@
 
 ### Questão 4
 
-| NOTA MÁXIMA | NOTA MÍNIMA | MÉDIA              |
+| nota_maxima | nota_minima | media              |
 | :---------: | :---------: | :----------------: |
 |4.035	      |  1.013	    | 2.5754838709677419 |
