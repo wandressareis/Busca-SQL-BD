@@ -2,15 +2,33 @@
 -- Retornando a nota máxima, mínima e média tendo como referencia para esse calculo o CPC
 -- (Contínuo)
 
-SELECT 
-	MAX(_cpc_continuo) AS "NOTA MÁXIMA",
-	MIN(_cpc_continuo) AS "NOTA MÍNIMA",
-	AVG(_cpc_continuo) AS "MÉDIA"
-FROM cpc
-WHERE codigo_da_area = '4301'
+CREATE OR REPLACE FUNCTION estatisticas_por_area(codigo_da_area INTEGER)
+RETURNS TABLE (nota_maxima NUMERIC, nota_minima NUMERIC, media NUMERIC) 
+AS $$
+BEGIN
+  RETURN QUERY 
+  SELECT 
+      MAX(_cpc_continuo) AS nota_maxima, 
+      MIN(_cpc_continuo) AS nota_minima, 
+      AVG(_cpc_continuo) AS media
+  FROM cpc
+  WHERE 
+    cpc.codigo_da_area = estatisticas_por_area.codigo_da_area;
+END;
+$$ LANGUAGE plpgsql;
+
+
+-- CÓDIGO USADO PARA CHAMAR A FUNÇÃO:
+
+SELECT * FROM estatisticas_por_area(1402);
+
+-- Onde em "1402" pode ser o código de qualquer área que se deseja obter estatística;
 
 -- Resposta:
 -- DATA OUTPUT:
     -- Máxima: 4.035	
     -- Mínima: 1.013	
     -- Média:  2.5754838709677419
+
+-- Código usado para remover a função existente:
+  -- DROP FUNCTION IF EXISTS estatisticas_por_area(INTEGER);
