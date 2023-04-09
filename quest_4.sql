@@ -30,5 +30,8 @@ SELECT * FROM estatisticas_por_area(1402);
     -- Mínima: 1.013	
     -- Média:  2.5754838709677419
 
--- Código usado para remover a função existente:
+-- Código usado para remover uma função existente:
   -- DROP FUNCTION IF EXISTS estatisticas_por_area(INTEGER);
+-- Código usado para alterar o tipo da variável:
+  -- ALTER TABLE nome_tabela
+  -- ALTER COLUMN nome_coluna TYPE tipo  Using nome_coluna::tipo;
